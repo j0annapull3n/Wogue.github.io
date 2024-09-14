@@ -1,0 +1,170 @@
+#main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black ;
+    padding-bottom: 10px;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    font-family: "Yevesa One";
+    display: flex;
+    align-items: center;   
+    margin: 20px;
+    padding: 20px;
+    width: 15%;
+    font-size: 7.5vw;
+    text-shadow:
+    1.5px 1.5px 0px black,
+    -1.5px 1.5px 0px black,
+    1.5px -1.5px 0px black,
+    -1.5px -1.5px 0px black;
+}
+
+#nav-ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+.navbutton {
+    color: Black;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10%;
+    font-family: "Yevesa One";
+    font-size: 1.5vw;
+}
+
+#nav-one {
+    background-color: black;
+    color: white;
+}
+
+#main-ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 1.75vw;
+    border-bottom: 2px solid black ;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);  
+}
+
+main > nav > ul > a {
+     text-decoration: none;
+     align-items: center;
+     color: black;
+     font-weight: 500;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+#images-one {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 10px;
+    margin: 30px;
+    border: 5px solid black;
+    
+}
+
+img {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+#main-h4 {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    border: 2px solid black;
+    font-family: "yeseva one";
+    background-color: black;
+}
+ #main-h4 > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    font-family: "Yevesa One";
+    font-weight: 600;
+    background-color: black;
+ }
+
+#content-one {
+    display: flex;
+    gap: 10px 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+
+}
+
+#content-two {
+    display: flex;
+    gap: 10px 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5vw;
+}
+
+body > footer > h2 {
+    display: flex;
+    font-family: "Yevesa One";
+    color: white;
+    margin: 2opx;
+    font-size: 3vw;
+}
+
+body > footer {
+    background-color: black;
+    display: flex;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content:space-between;
+    margin: 0px;
+    padding: 20px;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 20px;   
+}
+
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+    align-items: center;
+    justify-content: center; 
+}
+
+
